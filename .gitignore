@@ -1,0 +1,15 @@
+ #IDE配置文件
+.idea/
+
+#编译目录 忽略war包
+out/
+target/
+!/target/*.war
+
+#日志
+*.log
+
+#linux下生成的备份文件
+～*
+*.bak
+*.kate-swp
